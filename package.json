@@ -1,0 +1,21 @@
+{
+  "name": "seriesoftubes",
+  "version": "1.9.0-longgame.2",
+  "description": "A cartoon browser game about building the internet.",
+  "private": true,
+  "homepage": "https://tubes.krieger.pm/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flol0/series-of-tubes-longgame.git"
+  },
+  "scripts": {
+    "test": "node --test --test-force-exit --test-concurrency=1 tests/*.test.js",
+    "build": "OUT=dist bash scripts/build.sh"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "jsdom": "24.1.3"
+  }
+}
